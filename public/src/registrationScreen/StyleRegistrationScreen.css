@@ -1,0 +1,215 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-size: 10px;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  overflow: hidden;
+}
+
+#header-registration {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  width: 100%;
+  height: 8%;
+
+  padding: 45px 30px;
+  position: fixed;
+
+  background: red;
+  transition: all 0.3s ease-out;
+
+  z-index: 2;
+}
+
+.header-logo div img {
+  max-height: 70px;
+  width: auto;
+  transform: translateX(120px);
+}
+
+#person-registration {
+  display: flex;
+  width: 100%;
+  background-color: rgb(241, 236, 236);
+  height: 100%;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.person-content-registration {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  background-color: #fff;
+}
+
+.title-registration  {
+  font-size: 2.1rem;
+  color: #7e0a8d;
+  line-height: 1.4;
+  text-align: center;
+}
+
+.subtitle-registration {
+  font-size: 0.9rem;
+  color: #3b3b3b;
+  margin-bottom: 30px;
+  line-height: 1.4;
+  text-align: center;
+}
+
+form {
+  width: 100%;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.name-registration label {
+  display: block;
+
+  margin-bottom: 5px;
+  font-size: 1.2rem;
+  color: #333;
+}
+
+.name-registration input {
+  display: flex;
+  
+  
+  width: 180px;
+  padding: 7px;
+  
+  font-size: 1.2rem;
+  
+  border: 1px solid #000000;
+  border-radius: 5px;
+}
+
+.email-registration label {
+  font-size: 1.2rem;
+  color: #333;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.email-registration input {
+  display: flex;
+  
+  width: 180px;
+  padding: 7px;
+  
+  font-size: 1.2rem;
+  
+  border: 1px solid #000000;
+  border-radius: 5px;
+}
+
+.password-registration label {
+  font-size: 1.2rem;
+  color: #333;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.password-registration input {
+  display: flex;
+  
+  width: 180px;
+  padding: 7px;
+  
+  font-size: 1.2rem;
+  
+  border: 1px solid #000000;
+  border-radius: 5px;
+}
+
+.confirm-password-registration label {
+  font-size: 1.2rem;
+  color: #333;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.confirm-password-registration input {
+  display: flex;
+  
+  width: 180px;
+  padding: 7px;
+  
+  font-size: 1.2rem;
+  
+  border: 1px solid #000000;
+  border-radius: 5px;
+}
+
+.telephone-registration label {
+  font-size: 1.2rem;
+  color: #333;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.telephone-registration input {
+  display: flex;
+  
+  width: 180px;
+  padding: 7px;
+  
+  font-size: 1.2rem;
+  
+  border: 1px solid #000000;
+  border-radius: 5px;
+}
+
+.create-account {
+  display: block;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  position: relative;
+  
+}
+
+.create-account button {
+  font-weight: bold; 
+  width: 150px;
+  padding: 10px 25px;
+  
+  margin-left: 10px;
+
+  border: none;
+  border-radius: 5px;
+  border: 1.5px solid black;
+  
+  cursor: pointer;
+  
+  font-size: 1.5rem;
+}
+
+.registration-image {
+  width: 50%;
+  height: 100%;
+  display: flex;
+}
+
+.registration-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}

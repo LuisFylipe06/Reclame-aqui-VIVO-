@@ -1,0 +1,246 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth; /* Serve para fazer o scroll descer mais suave */
+  font-size: 10px;
+}
+
+body {
+  font-family: "Poppins", sans-serif; /* Especificação para usar o estilo da fonte */
+  overflow: hidden;
+}
+
+#header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  width: 100%;
+  height: 8%;
+
+  padding: 15px 30px;
+  position: fixed;
+
+  background: transparent;
+  transition: all 0.3s ease-out;
+
+  z-index: 2;
+}
+
+.header-logo div img {
+  max-height: 70px;
+  width: auto;
+}
+
+#person {
+  display: flex;
+  width: 100%;
+  background-color: rgb(241, 236, 236);
+  height: 100%;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.person-content {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Centraliza verticalmente */
+  align-items: center; /* Centraliza horizontalmente o conteúdo */
+  padding: 20px;
+  background-color: #fff;
+}
+
+.person-content h1 {
+  font-size: 2.2rem;
+  color: #7e0a8d;
+  margin-bottom: 30px;
+  line-height: 1.4;
+  text-align: center;
+}
+
+.person-content h1 span {
+  color: #7e0a8d;
+  display: block;
+}
+
+.subtitle-login {
+  font-size: 1.1rem;
+  color: #535353;
+  margin-bottom: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+}
+
+.login-content label {
+  font-size: 1.25rem;
+  color:#333;
+}
+
+.login-content input {
+  display: flex;
+
+  width: 180px;
+  padding: 7px;
+  
+  font-size: 1.2rem;
+
+  border: 1px solid #000000;
+  border-radius: 5px;
+}
+
+.password-content label {
+  font-size: 1.25rem;
+  color: #333;
+}
+
+.password-content input {
+  display: flex;
+
+  width: 180px;
+  padding: 7px;
+
+  font-size: 1.2rem;
+  
+  border: 1px solid #000000;
+  border-radius: 5px;
+}
+
+.forgot-password {
+  display: flex;
+  
+  font-size: 1.2rem;
+  color: #a8a7a7;
+  
+  text-decoration: none;
+  
+  justify-content: flex-end;
+  align-items: flex-end;
+  
+  margin-bottom: 20px;
+}
+
+.conect {
+  display: block;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  position: relative;
+  top: -20px;
+}
+
+.conect button {
+  font-weight: bold; 
+  width: 150px;
+  padding: 10px 25px;
+  
+  margin-left: 10px;
+
+  border: none;
+  border-radius: 5px;
+  border: 1.5px solid black;
+  
+  cursor: pointer;
+  
+  font-size: 1.5rem;
+}
+
+.conect button:hover {
+  background-color: #7e0a8d;
+}
+
+.divider {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  max-width: 300px;
+  margin-bottom: 20px;
+}
+
+.divider::before, 
+.divider::after {
+  content: "";
+  flex: 1;
+  height: 1px;
+  background-color: #ccc;
+}
+
+.divider span {
+  margin: 0 10px;
+  color: #0e0d0d;
+  font-size: 14px;
+}
+
+.social-login {
+  display: flex;
+  flex-direction: column;
+  margin-top: -10px;
+  gap: 10px;
+  width: 100%;
+}
+
+.social-login button {
+  background-color: white;
+  color: #333;
+  font-weight: bold; 
+  
+  width: 180px;
+  padding: 10px 15px;
+  
+  
+  border: 0.3px solid black;
+  border-radius: 5px;
+  
+  cursor: pointer;
+  
+  font-size: 1.1rem;
+  margin-top: 1px;
+  
+}
+
+.fa-brands.fa-google{
+  font-size: 1.7rem;
+}
+
+.fa-brands.fa-apple.icon{
+  font-size: 1.7rem;
+}
+
+.create-account{
+  font-size: 1.1rem;
+  font-weight: bold; 
+  color: #000000;
+  text-decoration: none;
+  text-align: center;
+  margin-top: 5px;
+
+  width: 180px;
+  padding: 10px 15px;
+  
+
+  border: 0.3px solid black;
+  border-radius: 5px;
+}
+
+.welcome-page {
+  width: 50%;
+  height: 100%;
+  display: flex;
+}
+
+.welcome-page img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+
