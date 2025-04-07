@@ -31,6 +31,16 @@ nav ul {
     font-size: 16px;
 }
 
+a {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.568);
+}
+
+a:hover {
+    color: #650199;
+    font-weight: bold;
+}
+
 .user {
     font-weight: bold;
     color: #6a0dad;
