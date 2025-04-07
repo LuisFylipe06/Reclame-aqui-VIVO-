@@ -7,7 +7,7 @@
 
 body{
     font-family: 'Montserrat', sans-serif;
-    background-image: url(../../img/propagandaBoasVindas.png);
+    background-image: url(./public/img/propagandaBoasVindas.png);
     background-size: cover;
 }
 
@@ -96,7 +96,7 @@ a {
 @media (max-width: 768px) {
 
     body {
-        background-image: url(../../img/pexels-shvets-production-7194009\ 1.png);
+        background-image: url(./public/img/propagandaBoasVindas.png);
         background-size: cover;
         height: 100%;
         overflow-x: hidden;
