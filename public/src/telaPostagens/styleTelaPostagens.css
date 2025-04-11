@@ -21,6 +21,10 @@ header {
     border-bottom: 1px solid #64019931;
     background-color: #FFFFFF;
 }
+.logo{
+    width: 140px;
+    height: 45px;
+}
 
 nav ul {
     display: flex;
@@ -53,6 +57,104 @@ a:hover {
     width: 100%;
     height: 100%;
     display: flex;
+    flex-direction: column;
+}
+
+.status-box {
+    width: 400px;
+    background-color: #ffffff6c;
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 5px;
+    margin-left: 25px;
+    display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
+    gap: 10px;
+}
+
+.status-box h2{
+    color: #650199;
+    margin-bottom: 30px;
+    display:flex;
+}
+
+.status-box p {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.reclamacao-box {
+    width: 400px;
+    margin-top: 20px;
+    margin-left: 25px;
+    background-color: #ffffff6c;
+    border-radius: 5px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.reclamacao-box h2{
+    color:#650199;
+}
+
+.reclamacao-box p{
+    font-size: 16px;
+}
+
+.opcoes{
+    display: flex;
+    gap: 2px;
+}
+
+button{
+    border-radius: 5px;
+    border: 1px solid black;
+    font-size: 16px;
+    padding: 5px;
+    cursor: pointer
+}
+
+textarea{
+    border-radius: 3px;
+    outline: 0;
+    padding: 2px;
+}
+
+.publicar {
+    background-color: #650199;
+    color: #FFFFFF;
+    transition: 0.3s;
+}
+
+.publicar:hover{
+    transform: scale(1.02);
+}
+
+.minhas-reclamacoes{
+    width: 400px;
+    margin-top: 20px;
+    margin-left: 25px;
+    margin-bottom: 20px;
+    background-color: #ffffff6c;
+    border-radius: 5px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.minhas-reclamacoes h2{
+    color: #650199;
+}
+
+th{
+    font-size: 14px;
+}
+
+td{
+    font-size: 14px;
 }
