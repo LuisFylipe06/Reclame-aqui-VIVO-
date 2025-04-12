@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styleTelaPostAdmin.css">
+    <title>Admin-Dashboard</title>
+</head>
+
+<body>
+    <header>
+        <div class="logo"><img src="../../img/Logo-Photoroom 1 1.png" alt="logo da vivo"></div>
+        <nav>
+            <ul>
+                <li><a href="../telaHome/telaHome.html">Home</a></li>
+                <li><a href="#">Posts</a></li>
+                <li><a href="../suportScreen/suportScreen.html">Suporte</a></li>
+                <li class="ola-cliente">Olá, Admin</li>
+                <li><img class="icone-user" src="../../img/🦆 icon _profile circled_.png" alt="foto do usuário"
+                        class="foto-user"></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="background">
+            <div class="overlay">
+                <!--Os spans abaixo deve conter o número de publicações de cada classe-->
+                <div class="status-box">
+                    <h2>Reclamações dos Clientes</h2>
+                    <p>Publicações Efetuadas <span>10</span></p>
+                    <p>Publicações Respondidas <span>7</span></p>
+                    <p>Publicações Pendentes <span>3</span></p>
+                </div>
+
+                <div class="reclamacao-box">
+                    <h2>Reclamação mais recentes</h2>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Protocolo</th>
+                                <th>Cliente</th>
+                                <th>Tipo</th>
+                                <th>Status</th>
+                                <th>Ações</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>#3218</td> <!--EXEMPLO-->
+                                <td>João</td> <!--EXEMPLO-->
+                                <td>Conexão Lenta</td> <!--EXEMPLO-->
+                                <td>Pendente</td> <!--EXEMPLO-->
+                                <td><button>Ver</button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>#2341</td>
+                                <td>Maria</td>
+                                <td>Problemas no Roteador</td>
+                                <td>Respondido</td>
+                                <td><button>Ver</button>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <!--Os spans abaixo são para fazer a integração com js-->
+                <div class="minhas-reclamacoes">
+                    <h2>Responder Reclamação</h2>
+                    <p><strong>Protocolo:</strong> <span id="protocolo">Selecione uma reclamação</span></p>
+                    <p><strong>Cliente:</strong> <span id="cliente">-</span></p>
+                    <p><strong>Tipo:</strong> <span id="tipo">-</span></p>
+                    <p><strong>Descrição:</strong> <span id="descricao">-</span></p>
+                    <textarea placeholder="Digite sua resposta aqui..."></textarea>
+                    <button>Responder</button>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>
