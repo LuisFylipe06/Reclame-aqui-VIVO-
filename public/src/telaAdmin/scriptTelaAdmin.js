@@ -5,7 +5,7 @@ document.querySelector('.icone-user').addEventListener('click', function (event)
     dropdownMenu.style.display = dropdownMenu.style.display === 'block' ? 'none' : 'block';
 });
 
-// Fecha o dropdown ao clicar fora dele
+
 document.addEventListener('click', function (event) {
     const dropdownMenu = document.querySelector('.dropdown-menu');
     const userIcon = document.querySelector('.icone-user');
